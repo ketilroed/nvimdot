@@ -65,7 +65,7 @@ vim.keymap.set('n', '<leader>fg', builtin.live_grep , {})
 
 local config = require("nvim-treesitter.configs")
 config.setup({
-  ensure_installed = {"lua","c"}, 
+  ensure_installed = {"lua","c", "markdown", "vim" }, 
   sync_install = false,
   highlight = {enable = true},
   indent = {enable = true},
