@@ -17,7 +17,6 @@ vim.opt.rtp:prepend(lazypath)
 
 
 
-
 -- local opts = {}
 
 -- activate the lazy.vim package handler
